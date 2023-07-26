@@ -231,7 +231,7 @@ footer p {
   padding: 0 50px 32px;
 }
 
-.d-sm {
+.d-sm-none {
   display: none;
 }
 }
