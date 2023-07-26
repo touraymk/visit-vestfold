@@ -3,3 +3,74 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/viking-trail-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 100px 0 200px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 auto;
+}
+
+header h2 {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 2;
+  margin: 0 auto;
+}
+
+header h3 {
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+header a {
+  color: #272435;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px 32px;
+  background: #fff;
+  margin: 32px 0 105px;
+}
+
+
+@media (max-width: 960px) {
+  header {
+    padding: 50px 0 100px;
+  }
+
+  header h1 {
+    font-size: 34px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
+
+  header a {
+    font-size: 9px;
+    padding: 8px 16px;
+    margin: 16px 0 52px;
+  }
+}
