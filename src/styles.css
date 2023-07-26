@@ -51,6 +51,64 @@ header a {
 }
 
 
+/*     Footer     */
+footer {
+  background: linear-gradient(rgba(39, 32, 68, 0.9), rgba(39, 32, 68, 0.9)), url(/images/footer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 14px;
+  gap: 40px;
+  padding: 50px 85px 46px;
+  text-align: start;
+}
+
+footer .grid {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+footer ul {
+  display: block;
+  margin-top: 5px;
+  padding: 0;
+}
+
+footer li {
+  line-height: 1.1;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+footer a {
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 auto;
+  opacity: 0.7;
+  padding: 0;
+}
+
+footer h3 {
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+
+
+
+
+
 @media (max-width: 960px) {
   header {
     padding: 50px 0 100px;
@@ -73,4 +131,33 @@ header a {
     padding: 8px 16px;
     margin: 16px 0 52px;
   }
+
+  footer {
+  padding: 25px 44px 23px;
+  font-size: 8px;
+  gap: 20px;
+}
+
+  footer .grid {
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 15px;
+}
+
+footer a {
+  font-size: 8px;
+}
+
+footer h3 {
+  font-size: 8px;
+}
+
+footer p {
+  font-size: 8px;
+}
+
+
+
+.d-sm-none {
+  display: none;
+}
 }
