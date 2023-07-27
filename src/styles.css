@@ -325,9 +325,9 @@ footer p {
   grid-gap: 15px;
 }
 
-/*.secondary-section {
+.secondary-section {
   padding: 50px 32px;
-}*/
+}
 
 .d-sm-none {
   display: none;
