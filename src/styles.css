@@ -323,6 +323,7 @@ footer p {
 .grid-img-columns {
   grid-template-columns: 1fr;
   grid-gap: 15px;
+  margin: 15px;
 }
 
 .secondary-section {
