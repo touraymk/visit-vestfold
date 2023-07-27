@@ -239,9 +239,9 @@ footer p {
 
 
 @media (max-width: 960px) {
-  header {
+  /*header {
     padding: 50px 0 100px;
-  }
+  }*/
 
   header h1 {
     font-size: 34px;
@@ -258,7 +258,7 @@ footer p {
   header a {
     font-size: 9px;
     padding: 8px 16px;
-    margin: 16px 0 52px;
+    margin: 72px 0 52px;
   }
 
   main h2 {
@@ -325,9 +325,9 @@ footer p {
   grid-gap: 15px;
 }
 
-.secondary-section {
+/*.secondary-section {
   padding: 50px 32px;
-}
+}*/
 
 .d-sm-none {
   display: none;
